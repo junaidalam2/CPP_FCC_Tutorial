@@ -1,0 +1,30 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.idb
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Other
+*.log
