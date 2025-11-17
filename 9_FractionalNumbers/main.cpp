@@ -2,15 +2,12 @@
 
 int main() {
     
-    int number1 = 15; // Decimal
-    int number2 = 017; // Octal
-    int number3 = 0x0F; // Hexadecimal
-    int number4 = 0b1111; // Binary (C++14 and later)
+    float number1 = 3.14f; 
+    double number2 = 3.14159; 
+    int count = {42};
+    int count_garbage; // will contain garbage value unless compiler puts zero
 
-    std::cout << "Number in Decimal: " << number1 << std::endl;
-    std::cout << "Number in Octal: " << number2 << std::endl;
-    std::cout << "Number is Hexadecimal: " << number3 << std::endl;
-    std::cout << "Number in Binary: " << number4 << std::endl;
+    std::cout << "Total :" << number1 + number2 + count <<std::endl; 
 
     return 0;
 }
